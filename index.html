@@ -3,54 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="رزومه نیوشا ورناصری — توسعه‌دهنده وب و موبایل">
   <title>رزومه — نیوشا ورناصری</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+  <div class="resume">
+
+    <header class="resume-header">
+      <div class="name-block">
         <h1>نیوشا ورناصری</h1>
-        <address>
-            <a href="https://mail.google.com/mail/?view=cm&to=newshavarnaseri@gmail.com" target="_blank"> ایمیل</a> | 
-            <a href="https://github.com/nioovns" target="_blank" rel="noopener">گیت هاب</a> 
-        </address>
+        <p class="headline">دانشجوی مهندسی کامپیوتر — توسعه‌دهنده وب و موبایل</p>
+      </div>
+
+      <address class="contact">
+        <a href="https://mail.google.com/mail/?view=cm&to=newshavarnaseri@gmail.com" target="_blank"> Email</a>
+        <span class="sep">|</span>
+        <a href="https://github.com/nioovns" target="_blank" rel="noopener">GitHub</a>
+      </address>
     </header>
-      
-  <main>
-    <section aria-labelledby="summary">
-      <h2 id="summary">خلاصه</h2>
-      <p>
-        دانشجوی مهندسی کامپیوتر با علاقه‌مندی بالا به برنامه‌نویسی، طراحی رابط کاربری و توسعهٔ نرم‌افزارهای کاربردی. آشنا با زبان‌های برنامه‌نویسی Java، Python، Kotlin و تکنولوژی‌های وب شامل HTML، CSS و JavaScript. در حال یادگیری React برای توسعهٔ فرانت‌اند مدرن. علاقه‌مند به یادگیری، کار تیمی و حل مسئله.
-      </p>
-    </section>
 
-    <section aria-labelledby="education">
-      <h2 id="education">تحصیلات</h2>
-      <article>
-        <h3>کارشناسی مهندسی کامپیوتر — دانشگاه شهید چمران اهواز</h3>
-        <p>  گرایش نرم‌افزار - از سال ۱۴۰۱ تا کنون</p>
-        <p></p>
-      </article>
-    </section>
+    <main class="resume-main">
 
-    <section aria-labelledby="experience">
-      <h2 id="experience">تجربه‌ها و پروژه‌ها</h2>
+      <section class="summary" aria-labelledby="summary">
+        <h2 id="summary">خلاصه</h2>
+        <p>
+          دانشجوی مهندسی کامپیوتر با علاقه‌مندی بالا به برنامه‌نویسی و توسعهٔ نرم‌افزارهای کاربردی. آشنا با زبان‌های برنامه‌نویسی Java، Python، Kotlin و تکنولوژی‌های وب شامل HTML، CSS و JavaScript. در حال یادگیری React برای توسعهٔ فرانت‌اند مدرن. علاقه‌مند به یادگیری، کار تیمی و حل مسئله.
+        </p>
+      </section>
 
+      <section class="education" aria-labelledby="education">
+        <h2 id="education">تحصیلات</h2>
+        <article>
+          <h3>کارشناسی مهندسی کامپیوتر — دانشگاه شهید چمران اهواز</h3>
+          <p>از سال ۱۴۰۱ تا کنون</p>
+          <p>گرایش: نرم‌افزار</p>
+        </article>
+      </section>
 
-    </section>
+      <section class="projects" aria-labelledby="experience">
+        <h2 id="experience">تجربه‌ها و پروژه‌ها</h2>
 
-    <section aria-labelledby="skills">
-      <h2 id="skills">مهارت‌ها</h2>
-      <ul>
-        <li>زبان‌های برنامه‌نویسی: Java، Python، Kotlin</li>
-        <li>توسعه وب: HTML، CSS، JavaScript</li>
-        <li>در حال یادگیری: React</li>
-        <li>ابزارها: Git، GitHub، Android Studio، VS Code</li>
-        <li>مهارت‌های نرم: کار تیمی، مدیریت زمان، حل مسئله</li>
-      </ul>
-    </section>
-  </main>
+        <article>
+          <h3>اپلیکیشن TODO List (کاتلین - اندروید)</h3>
+          <p>طراحی و پیاده‌سازی اپلیکیشن مدیریت کارها با امکان افزودن، حذف و علامت‌گذاری انجام‌شده‌ها. استفاده از Android Studio و Kotlin برای پیاده‌سازی.</p>
+        </article>
 
-  <footer>
-    <p>این رزومه توسط نیوشا ورناصری تهیه شده است. آخرین بروزرسانی: آبان ۱۴۰۴</p>
-  </footer>
+        <article>
+          <h3>ماشین حساب کاربردی (کاتلین - اندروید)</h3>
+          <p>توسعهٔ یک ماشین حساب ساده برای انجام محاسبات پایه. تمرکز روی رابط کاربری ساده و مدیریت ورودی‌ها در محیط اندروید.</p>
+        </article>
+
+        <article>
+          <h3>حل مسئله N-Queen (پایتون - گرافیکی)</h3>
+          <p>پیاده‌سازی حل‌کنندهٔ مسئله N-Queen با رابط گرافیکی ساده در پایتون. نمایش وضعیت صفحهٔ شطرنج و جایگاه ملکه‌ها به‌صورت تصویری.</p>
+        </article>
+      </section>
+
+      <aside class="skills" aria-labelledby="skills">
+        <h2 id="skills">مهارت‌ها</h2>
+        <ul>
+          <li>زبان‌های برنامه‌نویسی: Java، Python، Kotlin</li>
+          <li>توسعه وب: HTML، CSS، JavaScript</li>
+          <li>در حال یادگیری: React</li>
+          <li>ابزارها: Git، GitHub، Android Studio، VS Code</li>
+          <li>مهارت‌های نرم: کار تیمی، مدیریت زمان، حل مسئله</li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <footer class="resume-footer">
+      <p>این رزومه توسط نیوشا ورناصری تهیه شده است. آخرین بروزرسانی: آبان ۱۴۰۴</p>
+    </footer>
+
+  </div>
 </body>
 </html>
